@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main-content {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+@font-face {
+  font-family: "CedarvilleCursive-Regular";
+  src: url("./resources/fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf");
+}
+
+.page-header {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 16vh;
+}
+
+
+
+.cursive{
+  font-family: "CedarvilleCursive-Regular";
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-height: 700px ) {
+  .page-header {
+    font-size: 3em;
+    margin-top: 10vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (min-height: 700px ) {
+  .page-header {
+    font-size: 3.5em;
+    margin-top: 16vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (min-height: 700px ) {
+  .page-header {
+    font-size: 4em;
+    margin-top: 12vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (min-height: 700px ) {
+  .page-header {
+    font-size: 5em;
+    margin-top: 15vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (min-height: 700px ) {
+  .page-header {
+    font-size: 6em;
+    margin-top: 18vh;
+  }
+}
+
+/* MAX HEIGHT UNDER 700px------------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (max-height: 699px ) {
+  .page-header {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-height: 699px ) {
+  .page-header {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-height: 699px ) {
+.page-header {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-height: 699px ) {
+.page-header {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-height: 699px ) {
+  .page-header {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
