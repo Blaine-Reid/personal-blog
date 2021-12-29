@@ -1,0 +1,107 @@
+.img-container {
+  margin: auto;
+}
+
+.img-change {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: black;
+  margin: 5px;
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 50%;
+}
+
+.btn-container {
+  margin-bottom: 20px;
+}
+
+.body-text {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.body {
+  position: relative;
+  padding-top: 102px;
+}
+.hidden{
+  color:white;
+}
+
+.ad {
+  display: none;
+  padding: 10px 16px;
+  background: rgba(85, 85, 85, 0.418);
+  color: black;
+  height: 60vh;
+  width: 15vw;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+/* added to scrolling ads */
+.sticky {
+  display: block;
+  position: fixed;
+  top: 20vh;
+}
+
+.right{
+  right:5vh;
+}
+.left{
+  left:5vh;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+/* geolocation */
+.page-subheader{
+  position: relative;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+.geolocation-modal{
+  position: absolute;
+  bottom:1em;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-height: 700px ) {
+
+.body-text {
+  font-size: 1.3em;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (min-height: 700px ) {
+.body-text {
+  font-size: 1.3em;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (min-height: 700px ) {
+.body-text {
+  font-size: 1.4em;
+}
+
+}
+
+/* MAX HEIGHT UNDER 700px------------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (max-height: 699px ) {
+
+}

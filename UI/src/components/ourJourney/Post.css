@@ -1,0 +1,51 @@
+.teaser-card {
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: black;
+  padding: 5px 10px;
+}
+
+.card-location {
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+  text-align: justify;
+  letter-spacing: 1px;
+  overflow: hidden;
+  font-size: 1.2em;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-height: 700px ) {
+
+
+.card-title {
+  font-size: 1.4em;
+}
+
+.card-location {
+  font-size: 12px;
+
+}
+
+.card-body {
+
+  font-size: 1em;
+}
+
+}
+
+
